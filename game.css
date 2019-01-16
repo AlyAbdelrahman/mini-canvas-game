@@ -1,0 +1,148 @@
+@font-face
+{
+   src: url(fonts/Pokemon-Font/PokemonSolid.ttf);
+   font-family:'Pokemon Solid';
+}
+* {
+
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  
+  }
+  
+  html {
+  
+    height:100%;
+    width:100%;
+  
+  }
+  
+  body {
+  
+    align-content:space-around;
+    background-color:#202830;
+    color:rgba(0, 0, 0, 0.075);
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto auto auto auto;
+    height:100%;
+    justify-content:space-around;
+    text-align:center;
+    width:100%;
+    background-image: url('forest2.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    overflow: hidden;
+  }
+  
+  #C1 {
+    display: none;
+    background: url('final el final.png') no-repeat;
+    background-size: cover;
+     height:650px;
+    width: 1220px;
+  
+  }
+
+  .menu
+{
+     /* background-image: url(images/forest-dark.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    overflow: hidden;
+}
+#play
+{
+    position: absolute;
+    width:250px;
+    left: 75%;
+    top:60%;
+    transition: .5s;
+}
+#play:hover
+{
+  transform: scale(1.5);
+  cursor: pointer;
+}
+h2{
+    
+    position: absolute;
+    left: 547px;
+    top: 82px;
+    color: navy;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Pokemon Solid';
+}
+.hero-colors
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left:500px;
+    top:200px;
+}
+.hero-btn,.level-btn
+{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.hero-btn:hover,.level-btn:hover
+{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+#pokemon,#char2,#char3,#char4
+{
+    position: absolute;
+}
+img{
+    width: 150px;
+}
+.boy-position{
+    position: absolute;
+    top:-21px;
+    left: 200px;
+}
+#sign
+{
+    position: absolute;
+    left: 1050px;
+    top: 200px;
+    width: 200px;
+}
+#sign:hover
+{
+    transform: scale(1.2);
+}
+#how
+{
+    position: absolute;
+    top:100px;
+    left: 500px;
+    display: none;
+}
+.how-img
+{
+    width: 450px;
+}
+#exit
+{
+    position: absolute;
+    top:100px;
+    left:850px;
+    display: none;
+}
+.exit-img
+{
+    width: 100px;
+}
+.exit-img:hover{
+    transform: scale(1.5);
+} 
+  
